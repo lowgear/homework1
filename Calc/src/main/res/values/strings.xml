@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Galgulator</string>
+    <string name="empty_expression">Type expression</string>
+</resources>
