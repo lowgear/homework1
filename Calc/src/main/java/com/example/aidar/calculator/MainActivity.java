@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         s = ((TextView) findViewById(R.id.field)).getText();
     }
 
-    void edit(View view) {
+    public void edit(View view) {
         TextView field = (TextView) findViewById(R.id.field);
         String es = getResources().getString(R.string.empty_expression);
         switch (view.getId()) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             field.setText(es);
     }
 
-    void eval(View view) {
+    public void eval(View view) {
         TextView field = (TextView) findViewById(R.id.field);
         TripleExpression expression;
         try {
